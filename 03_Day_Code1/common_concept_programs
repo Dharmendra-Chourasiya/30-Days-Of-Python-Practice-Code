@@ -1,0 +1,82 @@
+# Sum of two no
+
+# a = 20
+# b = 30
+# add = a+b
+# sub = a-b
+# mul = a*b
+# div = a/b
+# print(add)
+# print(sub)
+# print(mul)
+# print(div)
+
+#------------
+
+#Logical Operator
+
+# a = 50
+# b = 30
+# val = False
+# val2 = True
+# print(not False)
+# print(not True)
+
+# print(not(a<b))
+# print(not(a>b))
+# print("AND Operator: ", val and val2)
+# print("Or Operator: ", val or val2)
+
+# print((a>b) and val2)
+
+#TYPE CONVERSION
+
+
+#Input values
+
+input() # default value is string type
+
+int(input()) # integer type
+
+float(input()) # floating type
+
+
+# val = float(input("Enter your value : "))
+
+# print(type(val),val)
+#----------------------------------
+# name = input("Enter your name : ")
+# age = int(input("Enter your age : "))
+# marks = float(input("Enter your marks : "))
+
+# print("Welcome : ", name)
+# print("Your age is : ", age)
+# print("Your marks is : ", marks)
+
+#Write program to input two no  and print their sum
+
+# num1 = int(input("enter the first no. : "))
+# num2 = int(input("enter the second no. : "))
+
+# sum = num1 + num2
+# print("sum of 2 no. is : ", sum)
+
+#--------------------------------- Area of Square ---------------------
+
+# side = int(input("enter the side of square : "))
+# print("area of square is :", side * side)
+
+#-------------------------------- Avg of 2 values --------------------
+
+# num1 = float(input("enter the first floating value : "))
+# num2 = float(input("enter the second floating value : "))
+# print("Avg value is : ", (num1+num2)/2)
+
+#-------------------------------- 
+
+a = int(input("enter first no. : "))
+b = int(input("enter second no. : "))
+if(a>=b):
+    print("True")
+else:
+    print("False")
