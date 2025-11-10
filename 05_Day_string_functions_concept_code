@@ -1,0 +1,50 @@
+# String Functions
+
+# str = "I am a coder."
+# str.endswith("er.") #returns true if string ends with substr
+# str.capitalize() #capitalizes 1st char
+# str.replace(old, new) #replaces all occurrences of old with new
+# str.find(word) #returns 1st index of 1st occurrence
+# str.count("am") #counts the occurrence of substr in string
+
+# str = "I am studying python from apna college"
+# print(str.endswith("ege"))
+# print(str.endswith("apna"))
+
+# str = "i am studying python from apna college"
+# print(str.capitalize()) # it will convert first latter in captial on temporary basis
+# print(str)
+# str = str.capitalize()
+# print(str)
+
+# replace function
+
+# str = "i am studying python from apna college"
+# print(str.replace("o","@")) #replace the value temporary
+# print(str)
+# str = str.replace("o","&")
+# print(str)
+
+# find function
+
+# str = "i am studying from python from apna college"
+# print(str.find("@")) # find the first charactor or string Index, if not present then it return -1
+
+#count function
+
+# str = "i am studying from python from apna college"
+# print(str.count("from"))
+# print(str.count("a")) # count the character and string present in string
+
+#---------------------------- Programs on above topic-------------
+
+# Let's Practice
+# WAP to input user's first name & print its length.
+
+# name = input("Enter your first name : ")
+# print("len of string is : ", len(name))
+
+# WAP to find the occurrence of '$' in a String.
+
+# str = "Hello $Dharmend$ra how $are you ?"
+# print(str.count("$")) 
