@@ -1,0 +1,67 @@
+# Conditional Statements
+
+# if-elif-else (SYNTAX)
+# if(condition) :
+#     Statement1
+# elif(condition):
+#     Statement2
+# else:
+#     StatementN
+
+# age = int(input("enter your age : "))
+# if(age >= 18):
+#     print("can vote and apply for license")
+# else:
+#     print("can not vote")    
+
+
+# light = input("enter the color of traffic light : ")
+
+# if(light == "red"):
+#     print("stop")
+# elif(light == "green"):
+#     print("start")
+# else:
+#     print("Stay")        
+
+#------------------------
+
+# ** diff between if and elif    
+# if statement always execute after match the first condition
+# elif statement stop and exit once the first match found 
+
+# example of if 
+# num = 5
+# print(num)
+# if(num > 2):
+#     print("num is greater then 2")
+# if(num > 3):
+#     print("num is greater then 3")
+
+#example of elif
+
+# num = 5
+# print(num)
+# if(num > 2):
+#     print("num is greater then 2")
+# elif(num > 3):
+#     print("num is greater then 3")
+#------------------------------------
+
+# Grade students based on marks
+# marks >= 90, grade = "A"
+# 90 > marks >= 80, grade = "B"
+# 80 > marks >= 70, grade = "C"
+# 70 > marks, grade = "D"
+ 
+marks = int(input("enter your marks to check the grade : "))
+if(marks >= 90 ):
+    print('''you achieved : 'grade' = "A" ''' )
+elif(marks >= 80):
+    print('''you achieved : 'grade' = "B" ''' )
+elif(marks >= 70):
+    print('''you achieved : 'grade' = "C" ''' )
+else:
+    print('''you achieved : 'grade' = "D" ''' )
+       
+
