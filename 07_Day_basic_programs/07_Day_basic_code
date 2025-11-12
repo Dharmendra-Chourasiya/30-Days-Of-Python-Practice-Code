@@ -1,0 +1,33 @@
+# Let's Practice
+# WAP to check if a number entered by the user is odd or even.
+# WAP to find the greatest of 3 numbers entered by the user.
+# WAP to check if a number is a multiple of 7 or not.
+
+# num = int(input("enter the no : "))
+# if(num %2 == 0):
+#     print("no is even")
+# else:
+#     print("no is odd")    
+
+#--------------------------
+
+# num1 = int(input("enter first no : "))
+# num2 = int(input("enter second no : "))
+# num3 = int(input("enter third no : "))
+
+# if(num1 > num2 and num1 > num3):
+#     print("num1 is bigger")
+# elif(num2 > num1 and num2 > num3):
+#     print("num2 is bigger")
+# else:
+#     print("num3 is bigger")   
+
+#-----------------------------
+
+num = int(input("enter the no to check the multiple of 7 : "))
+if(num % 7 == 0):
+    print("no is multiple of 7")
+else:
+    print("no is not multiple of 7")    
+
+
