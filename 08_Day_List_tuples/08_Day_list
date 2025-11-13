@@ -1,0 +1,63 @@
+# Lists in Python
+
+# A built-in data type that stores set of values
+# It can store elements of different types (integer, float, string, etc.)
+
+# marks = [87, 64, 33, 95, 76] #marks[0], marks[1]..
+# student = ["Karan", 85, "Delhi"] #student[0], student[1]..
+# student[0] = "Arjun" #allowed in python
+# len(student) #returns length
+
+# marks = [95.2, 22.4, 56.7, 98.1]
+# print(marks)
+# print(type(marks))
+# print(len(marks))
+# # Indexing in list
+# print(marks[0])
+# print(marks[1])
+# print(marks[2])
+# print(marks[3])
+
+# we can store different type of value in list
+
+# student = ["karan", 95.5, 28, "Delhi"]
+# print(student)
+# print(len(student))
+
+# **** String is immutable in python (can not be change)
+# **** list is mutable in python (can we change)
+
+# student = "karan"
+# print(student[0])
+# student[0] = "y" # Not possible in string
+
+# student = ["karan", 998.8, 28.9, "Delhi"]
+# print(student)
+# print(len(student))
+# student[0] = "arjun"
+# print(student)
+# student.append("radhika")
+# print(student)
+
+#---------------------------
+
+# List Slicing
+
+# Similar to String Slicing
+
+# list_name[ starting_idx: ending_idx] #ending idx is not included
+
+# marks = [87, 64, 33, 95, 76]
+# marks[1:4] is [64, 33, 95]
+# marks[4] is same as marks[ 0:4]
+# marks[1:) is same as marks[ 1: len(marks)]
+# marks[ -3:-1] is [33, 95]
+
+marks = [85, 89, 23, 67, 44, 24, 98]
+print(marks)
+print(marks[1:5])
+print(marks[:5])
+print(marks[1:])
+# Negative slicing is also possible here
+print(marks[-3:-1])
+
