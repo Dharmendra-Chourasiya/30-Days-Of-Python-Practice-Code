@@ -1,0 +1,37 @@
+# Let's Practice
+# WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
+# WAP to check if a list contains a palindrome of elements. (Hint: use copy() method)
+# [1, 2, 3, 2, 1]
+# [1, "abc", "abc", 1]
+
+# movies = []
+# movies.append(input("enter 1st movie : "))
+# movies.append(input("enter 2nd movie : "))
+# movies.append(input("enter 3rd movie : "))
+# print(movies)
+# print(type(movies))
+
+
+# list1 = [1,"abc","abc",1]
+# print(list1)
+# list2 = list1.copy()
+# list2.reverse()
+# print(list2)
+
+# if(list1 == list2):
+#     print("list is Palindrom")
+# else:
+#     print("list is not palindrom")    
+
+#WAP to count the number of students with the "A" grade in the following tuple.
+# ["C", "D", "A", "A", "B", "B", "A"]
+# Store the above values in a list & sort them from "A" to "D".    
+
+
+tup = ("C", "D", "A", "A", "B", "B", "A")
+print(tup.count("A"))
+
+list = ["C", "D", "A", "A", "B", "B", "A"]
+list.sort()
+print(list)
+
