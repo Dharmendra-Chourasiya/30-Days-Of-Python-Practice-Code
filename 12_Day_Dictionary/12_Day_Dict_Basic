@@ -1,0 +1,45 @@
+# Dictionary in Python
+
+# Dictionaries are used to store data values in key:value pairs
+# They are unordered, mutable(changeable) & don't allow duplicate keys
+
+# dict = {
+#     "name" : "Dharmendra",
+#     "age" : 18,
+#     "marks" : 10.45,
+#     "Subjects" : ["python","C","java"],
+#     "topic" : ("Dict","Set")
+# }
+
+# dict["name"] = "kalu"
+# print(dict["name"])
+# print(dict)
+
+# Null Dict creation
+
+# nul_dict = {
+# }
+
+# nul_dict["name"] = "apna_college"
+
+# print(nul_dict)
+
+# dict["name"], dict["cgpa"], dict["marks"]
+# dict["key"] = "value"
+# #to assign or add new
+
+#----------- Nested Dictionary---------------
+
+student = {
+    "name" : "Dharm",
+    "age" : 30,
+    "score" : {
+        "chem" : "98",
+        "phy" : "99",
+        "math" : "97"
+    }
+}
+
+print(student["age"])
+print(student["score"]["phy"])
+print(student["score"])
