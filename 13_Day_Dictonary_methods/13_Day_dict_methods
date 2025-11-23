@@ -1,0 +1,67 @@
+# Dictionary Methods
+
+# myDict.keys() #returns all keys
+# myDict.values() #returns all values
+# myDict.items() #returns all (key, val) pairs as tuples
+# myDict.get("key"") #returns the key according to value
+# myDict.update(newDict) #inserts the specified items to the diction
+
+# student = {
+#     "name" : "Mohan",
+#     "subject" : {
+#         "phy" : 97,
+#         "chem" : 98,
+#         "math" : 99
+#     }
+# }
+# print(student.keys())
+# print(student["subject"].keys())
+
+#---------------------
+
+student = {
+    "name" : "Dharmendra",
+    "age" : 30,
+    "gender" : {
+        "male" : 2,
+        "female" : 3
+    },
+    "subject" : {
+        "phy" : 90,
+        "chem" : 98,
+        "math" : 96
+    },
+    "address" : "Gouri Nagar Indore",
+    "salay" : 100000
+}
+
+#print(student)
+
+#print(student.keys())
+# print(student["subject"].keys())
+# print(student["gender"].keys())
+
+# print(student.values())
+
+# len function
+# print(len(student))
+
+#convert dict to list
+
+# print(list(student.keys()))
+# print(len(list(student.keys())))
+# print(student.keys())
+
+# print(list(student.values()))
+
+# print(student.items())
+# print(list(student.items()))
+# print(len(student.items()))
+
+# pairs = list(student.items())
+# print(pairs[2])
+
+# get() method
+# print(student.get("gender"))
+# print(student.get("subject"))
+
