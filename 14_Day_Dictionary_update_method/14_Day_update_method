@@ -1,0 +1,24 @@
+student = {
+    "name" : "Dharmendra",
+    "age" : 30,
+    "gender" : {
+        "male" : 2,
+        "female" : 3
+    },
+    "subject" : {
+        "phy" : 90,
+        "chem" : 98,
+        "math" : 96
+    },
+    "address" : "Gouri Nagar Indore",
+    "salay" : 100000
+}
+
+student.update({"name" : "Dharm"})
+
+# print(student)
+
+# print(student.items())
+# print(student)
+student.update({"city" : "Indore"})
+print(student)
