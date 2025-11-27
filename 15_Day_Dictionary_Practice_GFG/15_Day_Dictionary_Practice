@@ -1,0 +1,58 @@
+student = {
+
+    "name" : "Dharmendra",
+    "class" : "2nd year",
+    "age" : 20,
+    "course" : "MCA",
+     1 : "Hi",
+     "salary" : 200.50,
+     's' : "Hello" ,
+    "degree" : {
+        1 : "BBA",
+        2 : "BCA",
+        3 : "MBA",
+        4 : "MCA"
+    } 
+}
+# print(student)
+# print(student["name"],student.get("age"))
+# print(student.get("class"))
+# print(student["name"],student["class"])
+
+#ADD and Update
+
+# student["college"] = "NIT"
+# student["score"] = 20
+# student["age"] = 25
+# print(student.items())
+# print(student)
+
+#Delete and Pop function
+
+# d = {1: 'Geeks', 2: 'For', 3: 'Geeks', 'age':22}
+
+# # Using del to remove an item
+# del d["age"]
+# print(d)
+
+# val = d.pop(2)
+# print(val)
+
+# print(d)
+
+#Iterating Through a Dictionary
+
+# for key in student.keys():
+#     print(key)
+
+# for value in student.values():
+#     print(value)
+
+# for key, value in student.items():
+#     print(f"{key}: {value}")   
+
+# print(student["degree"]) 
+# print(student["degree"][3]) 
+
+# for key, value in student["degree"].items():
+#     print(f"{key} : {value}")
